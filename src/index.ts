@@ -1,6 +1,5 @@
 import { log } from 'console';
 import { ArrayFn1 } from './array/ex1'
-import { optionFn2 } from './option/ex2'
 import { ArrayFn2 } from './array/ex2'
 import { ArrayFn3 } from './array/ex3';
 import { ArrayFn4 } from './array/ex4';
@@ -21,6 +20,31 @@ import { ArrayFn27 } from './array/ex27';
 import { ArrayFn28 } from './array/ex28';
 import { ArrayFn29 } from './array/ex29';
 import { ArrayFn30 } from './array/ex30';
+import { optionFn1 } from './option/ex1';
+import { optionFn2 } from './option/ex2'
+import { optionFn3 } from './option/ex3';
+import { optionFn4 } from './option/ex4';
+import { optionFn5 } from './option/ex5';
+import { optionFn6 } from './option/ex6';
+import { optionFn7 } from './option/ex7';
+import { functionFn1 } from './function/ex1';
+import { functionFn2 } from './function/ex2';
+import { functionFn3 } from './function/ex3';
+import { functionFn4 } from './function/ex4';
+import { DictFn1 } from './dict/ex1';
+import { DictFn2 } from './dict/ex2';
+import { DictFn3 } from './dict/ex3';
+import { DictFn4 } from './dict/ex4';
+import { DictFn5 } from './dict/ex5';
+import { DictFn6 } from './dict/ex6';
+import { DictFn7 } from './dict/ex7';
+import { resultFn1 } from './result/ex1';
+import { resultFn2 } from './result/ex2';
+import { resultFn3 } from './result/ex3';
+import { resultFn4 } from './result/ex4';
+import { resultFn5 } from './result/ex5';
+import { resultFn6 } from './result/ex6';
+import { resultFn7 } from './result/ex7';
 
 
 console.log('Array exercises');
@@ -70,5 +94,62 @@ ArrayFn30();
 console.log('----------------------');
 
 console.log('Option exercises');
+console.log('optionFn1');
+optionFn1()
 console.log('OptionFn2');
 optionFn2();
+console.log('optionFn3');
+optionFn3();
+console.log('optionFn4');
+optionFn4();
+console.log('optionFn5');
+optionFn5();
+console.log('optionFn6');
+optionFn6();
+console.log('optionFn7');
+optionFn7();
+
+console.log('----------------------');
+console.log('function exercises');
+console.log('functionFn1');
+functionFn1();
+console.log('functionFn2');
+functionFn2();
+console.log('functionFn3');
+functionFn3();
+console.log('functionFn4');
+functionFn4();
+
+console.log('----------------------');
+console.log('dict exercises');
+console.log('dictFn1');
+DictFn1();
+console.log('dictFn2');
+DictFn2();
+console.log('dictFn3');
+DictFn3();
+console.log('dictFn4');
+DictFn4();
+console.log('dictFn5');
+DictFn5();
+console.log('dictFn6');
+DictFn6();
+console.log('dictFn7');
+DictFn7();
+
+console.log('----------------------');
+console.log('result exercises');
+console.log('resultFn1');
+resultFn1();
+console.log('resultFn2');
+resultFn2();
+console.log('resultFn3');
+resultFn3();
+console.log('resultFn4');
+resultFn4();
+console.log('resultFn5');
+resultFn5();
+console.log('resultFn6');
+resultFn6();
+console.log('resultFn7');
+resultFn7();
